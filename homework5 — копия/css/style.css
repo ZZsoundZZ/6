@@ -1,0 +1,172 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@font-face {
+	font-family: 'Gilroy';
+	src: url('/fonts/Gilroy-Bold.woff2') format('woff2'),
+		url('/fonts/Gilroy-Bold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 20px;
+	background-color: #1bac22;
+}
+/* ------------------------------ */
+/* Отступы */
+
+.h {
+	font-family: 'Alumni Sans Collegiate One', sans-serif;
+	font-weight: 700px;
+	font-size: 80px;
+	text-align: center;
+	color: rgb(230, 78, 18);
+	background-color: rgb(15, 14, 14);
+	border: 10px solid #1bac22;
+	border-radius: 74px 29px 53px 0px / 61px 0px 49px 0px;
+	box-shadow: 10px 10px 10px 10px;
+	text-shadow: 10px 10px 10px ;
+}
+.circle {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: rgb(1, 1, 15);
+	display: inline-block;
+}
+.circle:hover {
+	outline: 10px solid rgb(230, 78, 18);
+}
+.ce {
+	width: 200px;
+	height: 20px;
+	margin: 10px auto;
+	text-align: center;
+}
+.text {
+	font-family: 'Lobster', cursive;
+	margin: 20px;
+}
+p {
+	margin: 10px;
+}
+.q {
+	max-height: 397px;
+}
+q:hover {
+	outline: 10px solid rgb(230, 78, 18);
+}
+.text:hover {
+	outline: 10px solid rgb(230, 78, 18);
+}
+.qw {
+	text-align: center;
+	margin: 0 auto;
+}
+.link {
+	font-family: 'Alumni Sans Collegiate One', sans-serif;		font-weight: 700px;
+	font-size: 80px;
+	color: black;
+	display: inline-block;
+}
+.link:hover {
+	box-shadow: 10px 10px 10px 10px rgb(230, 78, 18);
+	color: rgb(230, 78, 18);
+}
+.fan {
+	color: rgb(230, 78, 18);
+}
+.fishka {
+	color: black;
+}
+.fan,
+.fishka {
+	font-family: 'Alumni Sans Collegiate One', sans-serif;
+	font-weight: 700px;
+	font-size: 80px;
+	display: inline-block;
+}
+.four {
+	text-align: center;
+	margin: 0 auto;
+	border-top: 10px solid;
+	border-right: 15px dotted rgb(230, 78, 18);
+	border-left: 20px dashed rgb(230, 78, 18);
+	border-bottom: 15px double;
+	border-radius: 74px 29px 53px 0px / 61px 0px 49px 0px;
+	margin: 30px;
+}
+.border {
+	display: inline-block;
+	margin: 20px;
+	padding: 20px;
+	border: solid 10px rgb(1, 1, 15);
+	font-family: 'Lobster', cursive;
+}
+.round {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+.round:hover {
+	outline: 10px double rgb(230, 78, 18);
+}
+.ro {
+	margin: 0 auto;
+	text-align: center;
+}
+.op {
+	opacity: 0.5;
+	font-family: 'Gilroy';
+}
+.none {
+	visibility: hidden;
+	
+}
+.r {
+	display: none;
+}
